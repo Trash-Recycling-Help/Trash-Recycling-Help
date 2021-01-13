@@ -83,5 +83,5 @@ addevent(c,"Take out the trash and recycling!", '2021-12-19 22:01:00')
 addevent(c,"Take out only the trash!", '2021-12-26 22:01:00')
 
 # Writing calendar file to disk
-with open('..\\trash-recyling-help.github.io\\my.ics', 'w') as my_file:
+with open('..\\trash-recyling-help.github.io\\se.ics', 'w') as my_file:
     my_file.writelines(c)
